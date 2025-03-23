@@ -6,14 +6,14 @@ public class Main{
         Scanner input = new Scanner(System.in);
         while (e == false){
             Ler p = new Ler();
-        
+            
             System.out.print("Conta: ");
             String conta = input.nextLine();
 
             if (conta.contains("s")){
+                input.close();
                 break;
             }
-            input.close();
             p.Mudar(conta);
 
             float num1 = p.getNum1();
