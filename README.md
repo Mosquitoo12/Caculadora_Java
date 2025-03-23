@@ -1,4 +1,4 @@
-# Caculadora_Java
+# Calculadora_Java
 
 Este projeto é uma calculadora simples feita em Java.
 
